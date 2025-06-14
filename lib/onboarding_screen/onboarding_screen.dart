@@ -16,21 +16,21 @@ class OnboardingScreen extends StatelessWidget {
             title: "Schedule Matches",
             body: "Easily find teams and book cricket matches around you.",
             image: buildLottie(
-                "https://lottie.host/32dd1a94-c91b-4d62-9a4c-f151b2e44b70/af1snlaIFk.json"),
+                "https://assets3.lottiefiles.com/packages/lf20_iwmd6pyr.json"),
             decoration: pageDecoration(),
           ),
           PageViewModel(
             title: "Manage Teams",
             body: "Handle team players, match info, and share results.",
             image: buildLottie(
-                "https://lottie.host/0277e123-0d49-4ad8-a84d-e5e1c36f52b1/37Lu2UXc2n.json"),
+                "https://assets10.lottiefiles.com/packages/lf20_x62chJ.json"),
             decoration: pageDecoration(),
           ),
           PageViewModel(
             title: "Join Cricket Community",
             body: "Connect with other local cricket lovers & clubs.",
             image: buildLottie(
-                "https://lottie.host/77c0e8c8-d8b1-4432-a9a2-f8f6ee8cf470/Qm9Eu7ql9c.json"),
+                "https://assets10.lottiefiles.com/packages/lf20_touohxv0.json"),
             decoration: pageDecoration(),
             footer: ElevatedButton(
               onPressed: () => goToHome(context),
